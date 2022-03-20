@@ -1,0 +1,5 @@
+G.Fe4r = true
+while _G.Fe4r do
+wait()
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+end
